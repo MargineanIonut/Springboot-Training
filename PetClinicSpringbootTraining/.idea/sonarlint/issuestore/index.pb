@@ -29,3 +29,17 @@ Gpet-clinic-data/src/main/java/com/example/springtraining/model/Pet.java,b\f\bf
 Kpet-clinic-data/src/main/java/com/example/springtraining/model/PetType.java,4\1\419a661627bb24f98b9fa6a8eb3994b5fbc0950d
 Å
 Qpet-clinic-data/src/main/java/com/example/springtraining/service/CrudService.java,a\c\acb6def37f043a50715225c691fc98055f877043
+å
+\pet-clinic-data/src/main/java/com/example/springtraining/service/map/AbstractMapService.java,7\7\776bae362735f9e30970275ed1f287bce1002800
+â
+Ypet-clinic-data/src/main/java/com/example/springtraining/service/map/OwnerServiceMap.java,4\4\440b2a1bb83e7228077b75576ad70a676327283a
+á
+Wpet-clinic-data/src/main/java/com/example/springtraining/service/map/VetServiceMap.java,4\2\420fe983a88fe98b5447470fe4cab97e8188c76e
+á
+Wpet-clinic-data/src/main/java/com/example/springtraining/service/map/PetServiceMap.java,d\b\dbb587f1909cf641b855a2cb98b777701899b6c9
+Ö
+Upet-clinic-web/src/main/java/com/example/springtraining/controller/VetController.java,1\2\127caca98703f14bc3d8479f860e9c2b66126602
+á
+Wpet-clinic-web/src/main/java/com/example/springtraining/controller/IndexController.java,8\4\8455b4ecaa390faa6060d56caaf77d0ef5a34750
+á
+Wpet-clinic-web/src/main/java/com/example/springtraining/controller/OwnerController.java,1\2\12dd778c7a397f134aba632c0c2190cd770af1d3
