@@ -1,6 +1,8 @@
 package com.example.springtraining;
 
 import com.example.springtraining.controllers.*;
+import com.example.springtraining.examplebeans.FakeDataSource;
+import com.example.springtraining.examplebeans.FakeJmsBroker;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
@@ -13,8 +15,7 @@ public class SpringTeoreticalExerciseProjectApplication {
 	public static void main(String[] args) {
 		ApplicationContext ctx = SpringApplication.run(SpringTeoreticalExerciseProjectApplication.class, args);
 
-		I18NController i18NController = (I18NController) ctx.getBean("i18NController");
-		System.out.println(i18NController.sayGreeting());
+
 
 		MyController myController = (MyController) ctx.getBean("myController");
 
@@ -38,6 +39,12 @@ public class SpringTeoreticalExerciseProjectApplication {
 		ConstructorInjectedController constructorInjectedController = (ConstructorInjectedController) ctx.getBean("constructorInjectedController");
 
 		System.out.println(constructorInjectedController.getGreeting());
+
+		FakeDataSource fakeDataSource = (FakeDataSource) ctx.getBean(FakeDataSource.class);
+		System.out.println(fakeDataSource.getUser());
+
+		FakeJmsBroker fakeJmsBroker = (FakeJmsBroker) ctx.getBean(FakeJmsBroker.class);
+		System.out.println(fakeJmsBroker.getUsername());
 	}
 
 }

@@ -43,3 +43,5 @@ Upet-clinic-web/src/main/java/com/example/springtraining/controller/VetControlle
 Wpet-clinic-web/src/main/java/com/example/springtraining/controller/IndexController.java,8\4\8455b4ecaa390faa6060d56caaf77d0ef5a34750
 á
 Wpet-clinic-web/src/main/java/com/example/springtraining/controller/OwnerController.java,1\2\12dd778c7a397f134aba632c0c2190cd770af1d3
+Å
+Qpet-clinic-web/src/main/java/com/example/springtraining/bootstrap/DataLoader.java,2\7\27e054a26f71cd062ec7cbec1af6ae03356757e9

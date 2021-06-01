@@ -1,0 +1,12 @@
+bzn:
+  jms:
+   username: JMSYaml
+   password: pass
+   url: someUrl
+
+---
+spring:
+  profiles: de
+bzn:
+  jms:
+    username: JMSYaml IN GERMAN
