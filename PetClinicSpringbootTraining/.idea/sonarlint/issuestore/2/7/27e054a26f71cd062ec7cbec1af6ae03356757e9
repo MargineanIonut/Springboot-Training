@@ -1,3 +1,7 @@
 
-U	java:S106-"9Replace this use of System.out or System.err by a logger.(Ü¿üâ8¼ãì¹œ/
-T	java:S106?"9Replace this use of System.out or System.err by a logger.(ãÓ¹8ëÿñ¹œ/
+T	java:S106t"9Replace this use of System.out or System.err by a logger.(ãÓ¹8âì…ßœ/
+U
+java:S14819"3Remove this unused "savedDentistry" local variable.(·š¤¡ÿÿÿÿÿ8âì…ßœ/
+U	java:S106e"9Replace this use of System.out or System.err by a logger.(Ü¿üâ8âì…ßœ/
+d
+java:S18549"BRemove this useless assignment to local variable "savedDentistry".(·š¤¡ÿÿÿÿÿ8âì…ßœ/

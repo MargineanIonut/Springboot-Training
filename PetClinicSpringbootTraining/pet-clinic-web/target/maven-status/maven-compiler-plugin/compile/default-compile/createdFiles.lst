@@ -1,1 +1,5 @@
+com\example\springtraining\controller\VetController.class
+com\example\springtraining\controller\IndexController.class
+com\example\springtraining\bootstrap\DataLoader.class
+com\example\springtraining\controller\OwnerController.class
 com\example\springtraining\SpringTrainingPetClinicApplication.class
